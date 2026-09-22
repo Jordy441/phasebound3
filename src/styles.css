@@ -7,6 +7,24 @@
   --max:1100px;
 }
 
+.logo img {
+  height: 48px;          /* Adjust size as needed */
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 0 6px #4da3ff); /* Subtle glow to match your theme */
+}
+
+.logo {
+  position: fixed;        /* Keeps logo visible while scrolling */
+  top: 1rem;
+  left: 1rem;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+
 body {
   background-image: url("https://img.freepik.com/premium-photo/race-cars-blurred-motion-racetrack-sunset_1276973-2783.jpg?w=740&q=80");
   background-size: cover;
