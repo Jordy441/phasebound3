@@ -15,14 +15,22 @@
 }
 
 .logo {
-  position: fixed;        /* Keeps logo visible while scrolling */
-  top: 1rem;
-  left: 1rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
   z-index: 999;
   display: flex;
   align-items: center;
   gap: 0.6rem;
 }
+
+.logo img {
+  height: 48px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 0 6px #4da3ff);
+}
+
 
 
 body {
