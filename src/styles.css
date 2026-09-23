@@ -31,6 +31,21 @@
   filter: drop-shadow(0 0 6px #4da3ff);
 }
 
+.bottom-right-img {
+  position: fixed;
+  bottom: 1rem;
+  right: 6rem; /* offset so it doesn’t overlap your logo */
+  z-index: 998;
+}
+
+.bottom-right-img img {
+  height: 80px;       /* adjust size */
+  width: auto;
+  display: block;
+  border-radius: 8px; /* optional */
+  filter: drop-shadow(0 0 6px #4da3ff);
+}
+
 
 
 body {
