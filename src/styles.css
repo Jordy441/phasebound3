@@ -25,6 +25,23 @@
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 
+.member-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  display: block;
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.card.member {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+
 .card.member {
   text-align: center;
   padding: 1.5rem;
