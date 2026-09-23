@@ -1,8 +1,8 @@
 :root {
-  --brand:#1f6aba;
+  --brand:#000305;
   --accent:#ec2939;
   --text:#ebe1e1;
-  --muted:#3d63af;
+  --muted:#000206;
   --bg:#eff0f3;
   --max:1100px;
 }
@@ -11,7 +11,7 @@
   height: 48px;          /* Adjust size as needed */
   width: auto;
   display: block;
-  filter: drop-shadow(0 0 6px #4da3ff); /* Subtle glow to match your theme */
+  filter: drop-shadow(0 0 6px #ff4d5f); /* Subtle glow to match your theme */
 }
 
 .logo {
