@@ -2,7 +2,7 @@
   --brand:#d7ae17;
   --accent:#ec2939;
   --text:#ebe1e1;
-  --muted:#b1f512;
+  --muted:#00041b;
   --bg:#eff0f3;
   --max:1100px;
 }
@@ -13,6 +13,14 @@
   display: block;
   filter: drop-shadow(0 0 6px #ff4d5f); /* Subtle glow to match your theme */
 }
+
+.member-photo {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 30%;
+}
+
 
 .member-photo {
   width: 120px;
