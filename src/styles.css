@@ -231,12 +231,14 @@ h2 {
   padding: 1.5rem;
 }
 
-.member-photo-oval {
-  width: 140px;        /* wider */
-  height: 180px;       /* taller */
-  object-fit: cover;
-  border-radius: 30%;  /* oval shape */
+.member-photo-scott {
+  width: 120px;      /* same width as Jordan */
+  height: 120px;     /* same height as Jordan */
+  object-fit: cover; /* keeps the crop clean */
+  border-radius: 50%; /* makes it circular like Jordan */
 }
+
+
 
 .member-photo-scott {
   width: 120px;       /* same width as Jordan */
