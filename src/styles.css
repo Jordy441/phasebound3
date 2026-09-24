@@ -238,6 +238,14 @@ h2 {
   border-radius: 30%;  /* oval shape */
 }
 
+.member-photo-scott {
+  width: 120px;       /* same width as Jordan */
+  height: 120px;      /* same height as Jordan */
+  object-fit: cover;
+  border-radius: 30%; /* oval shape — change to 50% if you want circular */
+}
+
+
 
 
 .team .member {
