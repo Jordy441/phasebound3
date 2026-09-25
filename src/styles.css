@@ -97,6 +97,13 @@ body {
   text-decoration:none;
 }
 
+.nav a {
+  color: #ffffff;
+  font-weight:600;
+  text-decoration:none;
+}
+
+
 
 /* CTA */
 .cta {
