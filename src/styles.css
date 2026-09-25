@@ -91,6 +91,15 @@ body {
   border-radius:8px;
 }
 
+.cta {
+  margin-left:auto;
+  padding:10px 16px;
+  border:2px solid var(--accent);
+  border-radius:8px;
+  color:#ffffff;
+}
+
+
 /* HERO */
 .hero {
   background:linear-gradient(120deg,#1f6aba,#0b1020);
