@@ -110,10 +110,12 @@ h3,
   color: #ffffff;
 }
 
-.nav a:hover {
-  color:#ffffff;
-  text-decoration:underline;
+.nav a {
+  color: #ffffff;
+  font-weight:600;
+  text-decoration:none;
 }
+
 
 
 
