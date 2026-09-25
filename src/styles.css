@@ -234,3 +234,10 @@ footer {
   white-space:nowrap;
   border:0;
 }
+
+.team h2,
+.team h3,
+.team .title {
+  color: #ffffff;
+}
+
