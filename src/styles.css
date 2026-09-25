@@ -103,6 +103,14 @@ body {
   text-decoration:none;
 }
 
+h2,
+h3,
+.section-title,
+.services-title {
+  color: #ffffff;
+}
+
+
 
 
 /* CTA */
