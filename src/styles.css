@@ -91,6 +91,13 @@ body {
   text-decoration:underline;
 }
 
+.nav a {
+  color: var(--text);
+  font-weight:600;
+  text-decoration:none;
+}
+
+
 /* CTA */
 .cta {
   margin-left:auto;
