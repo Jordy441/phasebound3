@@ -191,16 +191,16 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color:#000104;
+  color:#f2f3f7;
 }
 
 /* FOOTER */
 footer {
-  background:#000103;
+  background:#f2f3f5;
 }
 
 .wrap.small.muted {
-  color:#020a19;
+  color:#e6eaf0;
   text-align:center;
   padding:20px;
 }
