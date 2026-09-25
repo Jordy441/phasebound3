@@ -117,7 +117,7 @@ body {
 
 /* HERO */
 .hero {
-  background:linear-gradient(120deg,#e8ac06,#0b1020);
+  background:linear-gradient(120deg,#5f98ef,#0b1020);
   color:#f3f2f9;
 }
 
@@ -133,7 +133,7 @@ body {
 }
 
 .hero p {
-  color:#01030a;
+  color:#e8e9ef;
   max-width:760px;
 }
 
