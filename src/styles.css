@@ -109,7 +109,7 @@ body {
 }
 
 .hero p {
-  color:#f8f9fc;
+  color:#000309;
   max-width:760px;
 }
 
@@ -196,7 +196,7 @@ textarea::placeholder {
 
 /* FOOTER */
 footer {
-  background:#f2f3f5;
+  background:#010c20;
 }
 
 .wrap.small.muted {
