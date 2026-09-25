@@ -90,8 +90,8 @@ body {
 
 /* HERO */
 .hero {
-  background:linear-gradient(120deg,#000305,#0b1020);
-  color:#ef2b2b;
+  background:linear-gradient(120deg,#1f6aba,#0b1020);
+  color:#f9f7f7;
 }
 
 .wrap {
