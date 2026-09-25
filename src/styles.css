@@ -214,3 +214,8 @@ footer {
   white-space:nowrap;
   border:0;
 }
+.team .member p,
+.team .member div {
+  max-width: 100%;
+  word-wrap: break-word;
+}
