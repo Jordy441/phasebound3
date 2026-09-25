@@ -43,7 +43,7 @@
 
 /* BACKGROUND */
 body {
-  background-image: url("https://scontent.fbhd1-2.fna.fbcdn.net/v/t39.30808-6/797841656_10165706330034042_2340702789162785650_n.jpg?stp=dst-jpg_tt6&cstp=mx380x580&ctp=s380x580&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Z9kLIFC0dDIQ7kNvwG4PjV7&_nc_oc=AdrncRnI0MNrYfFg5ERWSV_XJfLmVjtzM3aJrf94mDGmT-wAQ0uuGxjUFpsC3mx0kEnFJwJMi25dGdPr9tmshAXM&_nc_zt=23&_nc_ht=scontent.fbhd1-2.fna&_nc_gid=lVmExHaePrm6Y5HP9zjz9w&_nc_ss=7b2a8&oh=00_AQLap3WNrV86u_fvk9VQ6u9aK3TBu9QfxjmGXdzCPFayxA&oe=6ABB8546");
+  background-image: url("");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,8 +90,8 @@ body {
 
 /* HERO */
 .hero {
-  background:linear-gradient(120deg,#1f6aba,#0b1020);
-  color:#f9f7f7;
+  background:linear-gradient(120deg,#000305,#0b1020);
+  color:#ef2b2b;
 }
 
 .wrap {
