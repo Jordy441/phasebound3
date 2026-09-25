@@ -94,7 +94,7 @@ body {
 /* HERO */
 .hero {
   background:linear-gradient(120deg,#1f6aba,#0b1020);
-  color:#f9f7f7;
+  color:#e10a0a;
 }
 
 .wrap {
@@ -116,7 +116,7 @@ body {
 .btn {
   display:inline-block;
   background:var(--accent);
-  color:#100101;
+  color:#eae2e2;
   padding:12px 16px;
   border-radius:8px;
   margin-top:18px;
