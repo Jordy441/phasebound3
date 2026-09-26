@@ -420,6 +420,17 @@ footer {
   text-decoration:none;
 }
 
+#links .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+#links .btn:hover {
+  transform: translateY(-3px);
+}
+
+
 
 .btn:hover {
   opacity:0.9;
