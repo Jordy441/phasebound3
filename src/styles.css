@@ -1,535 +1,246 @@
-:root {
-  --brand:#d7ae17;
-  --accent:#ec2939;
-  --text:#ebe1e1;
-  --muted:#dcdeea;
-  --bg:#eff0f3;
-  --max:1100px;
-}
-
-
-
-
-/* LOGO */
-.logo {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-.logo img {
-  height: 48px;
-  width: auto;
-  display: block;
-  filter: drop-shadow(0 0 6px #e1e2e3);
-}
-
-/* SECOND IMAGE */
-.bottom-right-img {
-  position: fixed;
-  bottom: 1rem;
-  right: 6rem;
-  z-index: 998;
-}
-
-.bottom-right-img img {
-  height: 80px;
-  width: auto;
-  display: block;
-  border-radius: 8px;
-  filter: drop-shadow(0 0 6px #4da3ff);
-}
-
-/* BACKGROUND */
-body {
-  background-image: url("https://scontent.fbhd1-2.fna.fbcdn.net/v/t39.30808-6/741082534_10165328108899042_655858859901710567_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s1024x1024&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nbA7YHpW2FgQ7kNvwG65e13&_nc_oc=AdoRQyAkFq9Q2mFMGVGJR7yJN2Tq06gZ63pkppPfnzqICI2MuBbGJrigd5EZ28nZ0pnlg8qiTF7Frr7q4MeOvLCH&_nc_zt=23&_nc_ht=scontent.fbhd1-2.fna&_nc_gid=OvZYHpxOcYpSDbw2QTwR1A&_nc_ss=7b2a8&oh=00_AQKg-xm69fYRp-SRVc-_RhcG0DIxClmcnPZBhdUVjgNAkA&oe=6ABBA716");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-}
-
-/* NAV — cleaned */
-.nav {
-  display:flex;
-  align-items:center;
-  gap:24px;
-  max-width:var(--max);
-  margin:0 auto;
-  padding:14px 20px;
-}
-
-.logo {
-  display:flex;
-  align-items:center;
-  gap:12px;
-  font-weight:700;
-  color:var(--brand);
-}
-
-.nav a {
-  color:var(--text);
-  font-weight:600;
-  text-decoration:none;
-}
-
-.nav {
-  color:#ffffff;
-}
-.nav a {
-  color:#ffffff;
-}
-
-
-
-
-.nav a {
-  color: var(--text);
-  font-weight:600;
-  text-decoration:none;
-}
-
-.nav a {
-  color: #ffffff;
-  font-weight:600;
-  text-decoration:none;
-}
-
-:root {
-  --brand:#d7ae17;
-  --accent:#ec2939;
-  --text:#ebe1e1;
-  --muted:#dcdeea;
-  --bg:#eff0f3;
-  --max:1100px;
-}
-
-
-
-
-/* LOGO */
-.logo {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-.logo img {
-  height: 48px;
-  width: auto;
-  display: block;
-  filter: drop-shadow(0 0 6px #e1e2e3);
-}
-
-/* SECOND IMAGE */
-.bottom-right-img {
-  position: fixed;
-  bottom: 1rem;
-  right: 6rem;
-  z-index: 998;
-}
-
-.bottom-right-img img {
-  height: 80px;
-  width: auto;
-  display: block;
-  border-radius: 8px;
-  filter: drop-shadow(0 0 6px #4da3ff);
-}
-
-/* BACKGROUND */
-body {
-  background-image: url("https://scontent.fbhd1-2.fna.fbcdn.net/v/t39.30808-6/741082534_10165328108899042_655858859901710567_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s1024x1024&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nbA7YHpW2FgQ7kNvwG65e13&_nc_oc=AdoRQyAkFq9Q2mFMGVGJR7yJN2Tq06gZ63pkppPfnzqICI2MuBbGJrigd5EZ28nZ0pnlg8qiTF7Frr7q4MeOvLCH&_nc_zt=23&_nc_ht=scontent.fbhd1-2.fna&_nc_gid=OvZYHpxOcYpSDbw2QTwR1A&_nc_ss=7b2a8&oh=00_AQKg-xm69fYRp-SRVc-_RhcG0DIxClmcnPZBhdUVjgNAkA&oe=6ABBA716");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-}
-
-/* NAV — cleaned */
-.nav {
-  display:flex;
-  align-items:center;
-  gap:24px;
-  max-width:var(--max);
-  margin:0 auto;
-  padding:14px 20px;
-}
-
-.logo {
-  display:flex;
-  align-items:center;
-  gap:12px;
-  font-weight:700;
-  color:var(--brand);
-}
-
-.nav a {
-  color:var(--text);
-  font-weight:600;
-  text-decoration:none;
-}
-
-.nav a {
-  color: #ffffff;
-  font-weight:600;
-  text-decoration:none;
-}
-
-
-
-
-
-h2,
-h3,
-.section-title,
-.services-title {
-  color: #ffffff;
-}
-
-.nav a {
-  color: #ffffff;
-  font-weight:600;
-  text-decoration:none;
-}
-
-
-
-
-
-
-/* CTA */
-.cta {
-  margin-left:auto;
-  padding:10px 16px;
-  border:2px solid var(--accent);
-  border-radius:8px;
-}
-
-.cta {
-  margin-left:auto;
-  padding:10px 16px;
-  border:2px solid var(--accent);
-  border-radius:8px;
-  color:#ffffff;
-}
-
-
-/* HERO */
-.hero {
-  background:linear-gradient(120deg,#eff2f6,#063be8);
-  color:#f3f2f9;
-}
-
-.wrap {
-  max-width:var(--max);
-  margin:0 auto;
-  padding:40px 20px;
-}
-
-.hero h1 {
-  font-size:clamp(30px,4vw,44px);
-  margin:0 0 8px;
-}
-
-.hero p {
-  color:#e8e9ef;
-  max-width:760px;
-}
-
-.btn {
-  display:inline-block;
-  background:var(--accent);
-  color:#ffffff;   /* ← pure white */
-  padding:12px 16px;
-  border-radius:8px;
-  margin-top:18px;
-  text-decoration:none;
-}
-
-
-.btn:hover {
-  opacity:0.9;
-}
-
-/* GRID */
-.grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:18px;
-}
-
-/* CARD */
-.card {
-  border:1px solid #ebeef6;
-  border-radius:12px;
-  padding:15px;
-  background:#0837f3;
-  color:#fdf8f8;
-}
-
-.card.member {
-  text-align:center;
-  padding:1.5rem;
-}
-
-/* MEMBER PHOTOS — unified */
-.member-photo,
-.member-photo-scott {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-  display: block;
-  border: 3px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
-}
-
-/* TEAM LAYOUT */
-.team .member {
-  display:flex;
-  gap:14px;
-  align-items:flex-start;
-}
-
-.small {
-  font-size:16px;
-}
-
-/* FORM */
-form {
-  display:grid;
-  gap:12px;
-  max-width:640px;
-}
-
-input,
-textarea {
-  padding:12px;
-  border:1px solid #d6d07b;
-  border-radius:8px;
-  font:inherit;
-  background:#e69509;
-  color:#f5eeee;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color:#f2f3f7;
-}
-
-/* FOOTER */
-footer {
-  background:#010c20;
-}
-
-.wrap.small.muted {
-  color:#f0ebeb;
-  text-align:center;
-  padding:20px;
-}
-
-/* ACCESSIBILITY */
-.sr-only {
-  position:absolute;
-  width:1px;
-  height:1px;
-  padding:0;
-  margin:-1px;
-  overflow:hidden;
-  clip:rect(0,0,0,0);
-  white-space:nowrap;
-  border:0;
-}
-
-.team h2,
-.team h3,
-.team .title {
-  color: #ffffff;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* CTA */
-.cta {
-  margin-left:auto;
-  padding:10px 16px;
-  border:2px solid var(--accent);
-  border-radius:8px;
-}
-
-.cta {
-  margin-left:auto;
-  padding:10px 16px;
-  border:2px solid var(--accent);
-  border-radius:8px;
-  color:#ffffff;
-}
-
-
-/* HERO */
-.hero {
-  background:linear-gradient(120deg,#121313,#033a75);
-  color:#f3f2f9;
-}
-
-.wrap {
-  max-width:var(--max);
-  margin:0 auto;
-  padding:40px 20px;
-}
-
-.hero h1 {
-  font-size:clamp(30px,4vw,44px);
-  margin:0 0 8px;
-}
-
-.hero p {
-  color:#e8e9ef;
-  max-width:760px;
-}
-
-.btn {
-  display:inline-block;
-  background:var(--accent);
-  color:#ffffff;   /* ← pure white */
-  padding:12px 16px;
-  border-radius:8px;
-  margin-top:18px;
-  text-decoration:none;
-}
-
-#links .btn {
-  display: inline-block;
-  margin-top: 1rem;
-  transition: background 0.25s ease, transform 0.25s ease;
-}
-
-#links .btn:hover {
-  transform: translateY(-3px);
-}
-
-
-
-.btn:hover {
-  opacity:0.9;
-}
-
-/* GRID */
-.grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:18px;
-}
-
-/* CARD */
-.card {
-  border:1px solid #ebeef6;
-  border-radius:12px;
-  padding:15px;
-  background:#0837f3;
-  color:#fdf8f8;
-}
-
-.card.member {
-  text-align:center;
-  padding:1.5rem;
-}
-
-/* MEMBER PHOTOS — unified */
-.member-photo,
-.member-photo-scott {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-  display: block;
-  border: 3px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
-}
-
-/* TEAM LAYOUT */
-.team .member {
-  display:flex;
-  gap:14px;
-  align-items:flex-start;
-}
-
-.small {
-  font-size:16px;
-}
-
-/* FORM */
-form {
-  display:grid;
-  gap:12px;
-  max-width:640px;
-}
-
-input,
-textarea {
-  padding:12px;
-  border:1px solid #d6d07b;
-  border-radius:8px;
-  font:inherit;
-  background:#e69509;
-  color:#f5eeee;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color:#f2f3f7;
-}
-
-/* FOOTER */
-footer {
-  background:#010c20;
-}
-
-.wrap.small.muted {
-  color:#f0ebeb;
-  text-align:center;
-  padding:20px;
-}
-
-/* ACCESSIBILITY */
-.sr-only {
-  position:absolute;
-  width:1px;
-  height:1px;
-  padding:0;
-  margin:-1px;
-  overflow:hidden;
-  clip:rect(0,0,0,0);
-  white-space:nowrap;
-  border:0;
-}
-
-.team h2,
-.team h3,
-.team .title {
-  color: #ffffff;
-}
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Azure Certification PhaseBound & The Cloud WorkShop Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Guided Azure certification mentoring, hands-on labs, and career coaching for cloud professionals.">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link href="https://cdn.jsdelivr.net/npm/@fontsource/inter/400.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <div class="bottom-right-img">
+  <img src="https://scontent.fbhd1-2.fna.fbcdn.net/v/t39.30808-6/797841656_10165706330034042_2340702789162785650_n.jpg?stp=dst-jpg_tt6&cstp=mx380x580&ctp=s380x580&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Z9kLIFC0dDIQ7kNvwG4PjV7&_nc_oc=AdrncRnI0MNrYfFg5ERWSV_XJfLmVjtzM3aJrf94mDGmT-wAQ0uuGxjUFpsC3mx0kEnFJwJMi25dGdPr9tmshAXM&_nc_zt=23&_nc_ht=scontent.fbhd1-2.fna&_nc_gid=ydRZLSISCQPgxCSi7DDvpg&_nc_ss=7b2a8&oh=00_AQLml4rhcKXMH4F0tUTCrElEHdRhsvtvtH95xdaAAN71QA&oe=6AB98B06" alt="">
+</div>
+
+
+
+
+
+    <main id="home">
+      <section class="hero" aria-label="Hero">
+        <div class="wrap">
+          <h1>PhaseBound & The Cloud WorkShop Studio</h1>
+          <p>
+            Structured, practical mentoring for Azure certifications—from fundamentals to expert level.
+            Build real-world skills, pass your exams with confidence, and design a cloud career that lasts.
+          </p>
+          <a class="btn" href="#services">Explore mentoring services</a>
+        </div>
+      </section>
+
+      <section id="services" class="section" aria-labelledby="services-title">
+        <div class="wrap">
+          <h2 id="services-title">Mentoring services</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>Exam-focused mentoring</h3>
+              <p class="muted">
+                <strong>
+                  Guided study plans, weekly check-ins, and targeted practice for AZ-900, AZ-104, AZ-305 and more.
+                  We break down the blueprint into achievable milestones and keep you accountable.
+                </strong>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Hands-on lab coaching</h3>
+              <p class="muted">
+                <strong>
+                  Live walkthroughs of Azure Portal, CLI, and Bicep; deployment scenarios, troubleshooting, and
+                  real-world architectures so you don’t just memorize—you understand.
+                </strong>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Career & portfolio support</h3>
+              <p class="muted">
+                <strong>
+                  Help with GitHub portfolios, LinkedIn positioning, interview prep, and mapping certifications
+                  to roles like Cloud Engineer, Architect, and DevOps.
+                </strong>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tracks" class="section case" aria-labelledby="tracks-title">
+        <div class="wrap">
+          <h2 id="tracks-title">Learning tracks</h2>
+          <div class="grid">
+            
+
+            <article class="card">
+              <h3>Azure Fundamentals Path</h3>
+              <p class="muted">
+                <strong>
+                  Start from zero with cloud basics, core Azure services, pricing, and governance—ideal for AZ-900
+                  and newcomers to cloud.
+                </strong>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Administrator & Operations Path</h3>
+              <p class="muted">
+                <strong>
+                  Focus on identity, networking, storage, and compute for AZ-104, including lab-heavy sessions on
+                  monitoring, backup, and automation.
+                </strong>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Architect & Design Path</h3>
+              <p class="muted">
+                <strong>
+                  Scenario-driven design for AZ-305: resilience, security, data, and integration patterns tailored
+                  to real enterprise constraints.
+                </strong>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>DevOps & Automation Path</h3>
+              <p class="muted">
+                <strong>
+                  CI/CD pipelines, IaC, and observability with GitHub Actions, Azure DevOps, and Bicep—ideal for
+                  engineers moving into platform roles.
+                </strong>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section team" aria-labelledby="about-title">
+        <div class="wrap">
+          <h2 id="about-title">Team</h2>
+          <div class="grid">
+
+            
+
+
+
+            
+            <!-- Jordan -->
+<div class="card member">
+  <img class="member-photo"
+       src="https://scontent.fbhd1-1.fna.fbcdn.net/v/t39.30808-6/806987382_10165706465214042_6986268489869576065_n.jpg?stp=dst-jpg_tt6&cstp=mx527x792&ctp=p526x296&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=D8IQjb9jShMQ7kNvwFPL5-O&_nc_oc=AdoxDIgltI-I1ARFTyO5eZ0MSLCgk41FtNpVKgnZyPPy22cL-tjexX7JcCu5B3E-b042XPUrRyHRC4MNGTErCFZc&_nc_zt=23&_nc_ht=scontent.fbhd1-1.fna&_nc_gid=RgiZDGSye5F7v5BsPs226Q&_nc_ss=7b2a8&oh=00_AQI9Ocf4R3zPnJq2kwDhoOU9BTdZLM0joE2i2_q0kBItFA&oe=6AB973CF"
+       alt="Jordan Wright">
+
+  <div>
+    <strong>Jordan</strong><br>
+    <span class="muted small">
+      <strong>Azure Certification Mentor & Cloud Consultant</strong><br>
+      With years of hands-on experience in Azure, web, and cloud architecture, Jordy specializes in
+      helping learners bridge the gap between exam objectives and real-world implementation.
+    </span>
+  </div>
+</div>
+
+           <!-- John -->
+<div class="card member">
+  <img class="member-photo"
+       src="https://scontent.fbhd1-1.fna.fbcdn.net/v/t39.30808-6/799958655_10165706456274042_902062644711197514_n.jpg?stp=dst-jpg_tt6&cstp=mx400x597&ctp=s400x597&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=B_DrJxbtl6sQ7kNvwG43FBm&_nc_oc=Adp-GG3drKobraewO7QSvufS4P3Goa9_CzYfICXZdMKNGssP7SDioqQt5nJRYpee_cqYsBvz5ZZhSrOjDBRNiQ8G&_nc_zt=23&_nc_ht=scontent.fbhd1-1.fna&_nc_gid=GYu-i8Pd80DN5_nvpKnKzQ&_nc_ss=7b2a8&oh=00_AQJUeDTBkxMUaDdKBZUKNDAJNPDYy_pRTiHTLPPU6Xt4eQ&oe=6AB989DD"
+       alt="John">
+
+  <div>
+    <strong>John</strong><br>
+    <span class="muted small">
+      <strong>AI Consultant & Trainer</strong><br>
+      John empowers innovation in the cloud through AI consultancy, training,
+      drone operations, and smart meter engineering. Driving digital transformation 
+      and tech modernisation.
+    </span>
+  </div>
+</div>
+
+
+            
+
+            <!-- Scott -->
+<div class="card member">
+  <img class="member-photo member-photo-scott"
+     src="https://scontent.fbhd1-1.fna.fbcdn.net/v/t39.30808-6/807830455_10165706454174042_7174345976552121968_n.jpg?stp=dst-jpg_tt6&cstp=mx945x582&ctp=s945x582&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JjMGD1CQnWMQ7kNvwE9lnRd&_nc_oc=AdrlBcuEiqL1-TcG82dI9dbtV1olT4LFGhOG65AoCQJF88mnWDgLdAq9uDITHRyCrqWEEIatIRSuDs7J5GHjts9G&_nc_zt=23&_nc_ht=scontent.fbhd1-1.fna&_nc_gid=Qi6iq87pAfo6Fm0eOztgQQ&_nc_ss=7b2a8&oh=00_AQJqgnHyn9lhmPZrgaT1D--PRsGGbhZbF5fBHNhrrodCUw&oe=6ABBA141"
+     alt="Scott">
+
+
+
+  <div>
+    <strong>Scott</strong><br>
+    <span class="muted small">
+      <strong>Game Development,Video Editing & Coach</strong><br>
+      Scott is a skilled DevOps, Game Development and automation professional with 
+      hands‑on experience across GitHub Actions, Azure DevOps. 
+
+
+    </span>
+  </div>
+</div>
+
+
+            <!-- Fulden -->
+<div class="card member">
+  <img class="member-photo"
+       src="https://scontent.fbhd1-2.fna.fbcdn.net/v/t39.30808-6/795697230_10165706458029042_3926763802654737002_n.jpg?stp=dst-jpg_tt6&cstp=mx390x590&ctp=s390x590&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=oPv37fEi_b8Q7kNvwFJ8UC7&_nc_oc=Ado51SCdsgrFxpjKvCVROSD-lARR0MTkKm16KUfirYhhsmCvZdnjYMU-eOLky3eRo7XHYOOesDr_DOR1VNde_IRV&_nc_zt=23&_nc_ht=scontent.fbhd1-2.fna&_nc_gid=4mIckEv1DKGSwQ1omaULVQ&_nc_ss=7b2a8&oh=00_AQKxqubhua_d9kGPFg8TL895Asg7-olOkvFxSRIthZ4k7w&oe=6AB9995A"
+       alt="Fulden">
+
+  <div>
+    <strong>Fulden</strong><br>
+    <span class="muted small">
+      <strong>Operations Manager</strong><br>
+      Fulden leads regulated industries through cloud transformation, blending technical expertise with people-first 
+      leadership and turning technology into real business results.
+    </span>
+  </div>
+</div>
+
+<section id="links" class="section case" aria-labelledby="links-title">
+  <div class="wrap">
+    <h2 id="links-title">Links</h2>
+    <div class="grid">
+
+      
+
+      
+      </section>
+
+      <section id="contact" class="section" aria-labelledby="contact-title">
+        <div class="wrap">
+          <h2 id="contact-title">Book a mentoring session</h2>
+          <form action="https://formspree.io/f/your-id" method="post">
+            <label class="sr-only" for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Your email" required>
+
+            <label class="sr-only" for="role">Current role</label>
+            <input id="role" name="role" type="text" placeholder="Your current role" required>
+
+            <label class="sr-only" for="exam">Target exam</label>
+            <input id="exam" name="exam" type="text" placeholder="Target exam (AZ-900, AZ-104, etc.)" required>
+
+            <label class="sr-only" for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me where you are in your Azure journey." required></textarea>
+
+            <button class="btn" type="submit">Request mentoring</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    
+
+
+    <footer aria-label="Footer">
+      <div class="wrap small muted">
+        © PhaseBound & The Cloud WorkShop Studio
+      </div>
+    </footer>
+  </body>
+</html>
