@@ -529,5 +529,16 @@ footer {
   color: #ffffff;
 }
 
+#weblinks .icon {
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: center;
+}
+#weblinks .icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+
 
 
